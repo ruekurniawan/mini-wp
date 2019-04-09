@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <title>Wordpress</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="main-menu" class="navbar-brand" href="#">My Site </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <a id="reader-content" href="">Reader</a>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">LogIn</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Side Bar Main Menu -->
+    <div class="row" id="side-bar-main-menu">
+      <div class=" col-md-1">
+
+        <ul class="nav nav-pills nav-stacked anyClass">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Title</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">View Site</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Activity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plan</a>
+          </li>
+
+
+          <h5>Manage</h5>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SIte Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog Post</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FeedBack</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plugins</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Import</a>
+          </li>
+
+          <h5>Personalize</h5>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customize</a>
+          </li>
+
+          <h5>Configure</h5>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Earn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sharing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Domains</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Setting</a>
+          </li>
+        </ul>
+        <footer>
+          <a class="nav-link" href="#">Add New Site</a>
+        </footer>
+      </div>
+
+      <!-- Main Content Menu -->
+      <div class="col-11" id="primary-content-main-menu">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">
+            <div class="p-2">Flex item</div>
+            <div class="p-2">Flex item</div>
+          </div>
+          <div class="p-2" style="margin-right: 20px">Flex item3</div>
+        </div>
+      </div>
+      <!-- Main Content Menu End -->
+    </div>
+    <!-- Side Bar Main Menu End -->
+
+    <div class="container-fluid">
+      
+      <div class="row" id="second-content-reader">
+        <!-- Side Bar Menu Owner -->
+        <div class="col-2">
+          <ul>
+            <li>
+              <a href="#">Add Article</a>
+            </li>
+            <li>
+              <a href="#">List Of Articles</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Side Bar Menu Owner End -->
+
+        <div class="col-10">
+          <!-- Layout List -->
+          <div class="container-fluid layout-list d-block" id="layout-list-content">
+            <h1>List Article</h1>
+            <div class="card" style="width: align-self">
+              <img class="card-img-top" src=".../100px180/" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Tittle</a></h5>
+                <p class="card-text">Text List</p>
+              </div>
+            </div>
+          </div>
+          <!-- Layout List End -->
+
+          <!-- Layout Add Article -->
+          <div class="container-fluid layout-list d-block" id="layout-add-content">
+            <div class="row">
+              <div class="col" id="add-article">
+                <h5 class="card-header info-color white-text text-center py-4">
+                  <strong>Add Article</strong>
+                </h5>
+                <form>
+                  <!-- Material input -->
+                  <div class="md-form form-group mt-5">
+                    <label for="formGroupExampleInputMD">Tittle</label>
+                    <input type="text" class="form-control" id="title" placeholder="Input Title">
+                  </div>
+                  <!-- Material input -->
+                  <div class="md-form form-group mt-5">
+                    <textarea name="inputContet" id="input-content" cols="159" rows="20"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary pr-4 pl-4" id="submit-todo">Submit</button>
+                </form>
+                <!-- Material form group -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Layout Add Article End -->
+      </div>
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+      <script src="./js/main.js"></script>
+</body>
+
+</html>
