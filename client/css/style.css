@@ -2,3 +2,89 @@
   height:768px;
   overflow-y: scroll;
 }
+
+/* <div class="row" id="side-bar-main-menu">
+      <div class=" col-md-1">
+
+        <ul class="nav nav-pills nav-stacked anyClass">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Title</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">View Site</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Activity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plan</a>
+          </li>
+
+
+          <h5>Manage</h5>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SIte Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog Post</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FeedBack</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plugins</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Import</a>
+          </li>
+
+          <h5>Personalize</h5>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customize</a>
+          </li>
+
+          <h5>Configure</h5>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Earn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sharing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Domains</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Setting</a>
+          </li>
+        </ul>
+        <footer>
+          <a class="nav-link" href="#">Add New Site</a>
+        </footer>
+      </div>
+
+      <!-- Main Content Menu -->
+      <div class="col-11" id="primary-content-main-menu">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">
+            <div class="p-2">Flex item</div>
+            <div class="p-2">Flex item</div>
+          </div>
+          <div class="p-2" style="margin-right: 20px">Flex item3</div>
+        </div>
+      </div>
+      <!-- Main Content Menu End -->
+    </div> */
+
+    /*
+      controller
+    */
